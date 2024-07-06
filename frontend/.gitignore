@@ -1,0 +1,46 @@
+# dependencies (Next.js)
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing (Next.js)
+/coverage
+
+# next.js (Next.js)
+/.next/
+/out/
+
+# production (Next.js)
+/build
+
+# misc (Next.js)
+.DS_Store
+*.pem
+
+# debug (Next.js)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files (Next.js)
+.env*.local
+
+# vercel (Next.js)
+.vercel
+
+# typescript (Next.js)
+*.tsbuildinfo
+next-env.d.ts
+
+# Go build artifacts
+*.exe
+/bin/
+
+# Go dependencies
+/vendor/
+/go.sum
+/go.mod
+
+# IDE-specific files (Go and Next.js)
+.idea/
